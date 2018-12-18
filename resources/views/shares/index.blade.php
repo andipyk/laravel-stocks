@@ -12,6 +12,8 @@
             {{session()->get('success')}}
             </div><br>
         @endif
+
+        <a href="{{ route('shares.create') }}"><button class="btn btn-info">Add</button></a><br><br>
         <table class="table table-striped">
             <thead>
                 <tr>
